@@ -315,12 +315,12 @@ body {
 
 .about-content {
     margin-top: 10px;
-    height: 300px;
+    height: 100vh;
     color: #000002;
 }
 
 .skills-content{
-    height: 300px;
+    height: 100vh;
     width: 100%;
     color: #000002;
     list-style-image: url(images/check.png);
@@ -334,12 +334,12 @@ body {
 
 .portfolio-content {
 color: #000002;
-height: 300px;
+height: 100vh;
 }
 
 .section-content {
 color: #000002;
-height: 300px;
+height: 100vh;
 }
 
 /* KEYFRAMES ANIMATION */
