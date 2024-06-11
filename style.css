@@ -513,7 +513,7 @@ body {
     display: inline-block;
     width: 33.3%;
     /* border: red solid; */
-    height: 450px;
+    height: 500px;
     box-sizing: border-box;
 }
 
@@ -526,7 +526,7 @@ body {
         height: 200px;
         box-sizing: border-box;
     }
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* .project-1 {
