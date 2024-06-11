@@ -9,6 +9,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -18,33 +24,42 @@
         <a href="#" class="active">Home</a>
         <a href="#about-link">About</a>
         <a href="#skills-link">Skills</a>
-        <a href="#portfolio-link">Portfolio</a>
+        <a href="#projects-link">Projects</a>
         <a href="#contact-link">Contact</a>
       </nav>
     </header>
-
+    <div class="clr"></div>
     <section class="home">
       <div class="home-content">
-        <h1>Hi, I'm Justin Pope</h1>
-        <h3>Full Stack Developer</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-          repudiandae nesciunt hic labore porro eius omnis adipisci voluptates
-          laborum consequuntur! Possimus ipsa nesciunt vero corrupti magni
-          dolores natus, blanditiis qui similique temporibus obcaecati minus
-          iusto veritatis illum fugit. Voluptatem quod corrupti ipsum animi quos
-          ipsa deleniti delectus aliquam fugiat! Excepturi?
-        </p>
-        <div class="btn-box">
-          <a href="#">Hire Me</a>
-          <a href="#">Let's Talk</a>
+        <div class="home-content-text">
+          <h1>Hi, I'm Justin Pope</h1>
+          <h3>Full Stack Developer</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            repudiandae nesciunt hic labore porro eius omnis adipisci voluptates
+            laborum consequuntur! Possimus ipsa nesciunt vero corrupti magni
+            dolores natus, blanditiis qui similique temporibus obcaecati minus
+            iusto veritatis illum fugit. Voluptatem quod corrupti ipsum animi
+            quos ipsa deleniti delectus aliquam fugiat! Excepturi?
+          </p>
+          <div class="btn-box">
+            <a href="#">Hire Me</a>
+            <a href="#">Let's Talk</a>
+          </div>
+        </div>
+        <div class="home-content-img">
+          <img src="/images/20230628_204046.jpg" alt="" />
         </div>
       </div>
-
+      <div class="clr"></div>
       <div class="home-sci">
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/justin-pope-2a040a102/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
         <div id="about-link"></div>
-        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="https://github.com/justinpope99"
+          ><i class="bx bxl-github"></i
+        ></a>
       </div>
 
       <!-- <span class="home-imgHover"></span> -->
@@ -52,7 +67,7 @@
     </section>
     <section class="about">
       <div class="about-content">
-        <h3>About Me</h3>
+        <h3 class="about-title">About Me</h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum,
           tenetur dolore? Illo quibusdam eligendi beatae sint fuga aspernatur,
@@ -61,46 +76,273 @@
           quae autem, obcaecati voluptatibus aliquam ab sequi. Cum eum earum
           excepturi dignissimos libero!
         </p>
+        <h3 class="about-education">Education</h3>
       </div>
     </section>
+    <div class="clr"></div>
     <div id="skills-link"></div>
-    <br />
-    <br />
-    <br />
-    <br />
     <section class="skills">
+      <h3>Technical Skills</h3>
       <div class="skills-content">
-        <h3>Technical Skills</h3>
         <div class="skills-list">
-          <ul>
-            <li>Java/JavaFX</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>C#</li>
-            <li>SQL</li>
-          </ul>
+          <div class="skills-container">
+            <!-- <div class="skill-item">
+              <img src="/images/python.png" />
+            </div> -->
+            <div class="skill-item">
+              <h4 class="skill-description">Java</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/java"
+                  title="java icons"
+                  ><img src="images/java.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">Python</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/python"
+                  title="python icons"
+                  ><img src="images/python.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Beginner</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">JavaScript</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/java"
+                  title="java icons"
+                  ><img src="images/java-script.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Beginner</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">PHP</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/php"
+                  title="php icons"
+                  ><img src="images/php.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Beginner</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">HTML5</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/html-5"
+                  title="html 5 icons"
+                  ><img src="images/html-5.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">CSS3</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/css-3"
+                  title="css 3 icons"
+                  ><img src="images/css-3.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Beginner</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">C#</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/c-sharp"
+                  title="c sharp icons"
+                  ><img src="images/c-sharp.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Beginner</div>
+            </div>
+            <!-- <div class="skill-item">
+              <h4 class="skill-description">ASP.NET</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/aspnet"
+                  title="aspnet icons"
+                  ><img src="images/aspnet.png" alt=""
+                /></a>
+              </div>
+            </div> -->
+            <div class="skill-item">
+              <h4 class="skill-description">SQL</h4>
+              <!-- <a
+                href="https://www.flaticon.com/free-icons/sql"
+                title="sql icons"
+                ><img src="images/sql-server (1).png" alt=""
+              /></a> -->
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/database"
+                  title="database icons"
+                  ><img src="images/sql-server.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+            <div class="skill-item">
+              <h4 class="skill-description">VS Code</h4>
+              <div class="skill-image">
+                <a
+                  href="https://iconape.com/wp-content/png_logo_vector/visual-studio-code.png"
+                  ><img src="images/visual-studio-code.png" alt=""
+                /></a>
+              </div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+            <!-- <div class="skill-item">
+              <h4 class="skill-description">Microsoft Office</h4>
+              <div class="skill-image">
+                <a
+                  href="https://www.flaticon.com/free-icons/microsoft-office"
+                  title="microsoft office icons"
+                  ><img src="images/office.png" alt=""
+                /></a>
+              </div> -->
+          </div>
+          <!-- <div class="skill-item"></div> -->
+        </div>
+        <!-- <div class="skill-container">
+            <div class="skill-item">Java/JavaFX</div>
+            <div class="skill-item">HTML/CSS</div>
+            <div class="skill-item">JavaScript</div>
+          </div>
+          <div class="skill-container">
+            <div class="skill-item">PHP</div>
+            <div class="skill-item">C#</div>
+            <div class="skill-item">SQL</div>
+          </div> -->
+      </div>
+      <!-- </div> -->
+    </section>
+    <div class="clr"></div>
+    <div id="projects-link"></div>
+    <section class="projects">
+      <div class="projects-content">
+        <h3 class="projects-header">Projects</h3>
+        <div class="project-container">
+          <div class="project-1">
+            <div class="project-header">Java College Enrollment Website</div>
+            <div class="project-description">
+              <p>
+                Built a College Enrollment website using HTML, Java, JSP, SQL,
+                MVC, and the Eclipse IDE. The website was designed with a
+                responsive UI that allows the user to enroll or drop courses, by
+                using the JDBC API to execute SQL queries and statements.
+              </p>
+            </div>
+            <div class="project-image">
+              <a
+                href="https://www.flaticon.com/free-icons/seo-and-web"
+                title="seo and web icons"
+                ><img src="images/java-code.png" alt=""
+              /></a>
+            </div>
+            <div class="project-link">
+              <a href="#">Project URL</a>
+            </div>
+          </div>
+          <div class="project-2">
+            <div class="project-header">C# Bakery Store Application</div>
+            <div class="project-description">
+              <p>
+                Developed a C# Bakery Store application using C#, SQL, and
+                Microsoft Visual Studio. Designed and produced an event-driven
+                C# application that displays bakery items along with their name,
+                price, description and images from an SQL database and allows a
+                user to add items to a cart and order them.
+              </p>
+            </div>
+            <div class="project-image">
+              <a
+                href="https://www.flaticon.com/free-icons/c-sharp"
+                title="c sharp icons"
+                ><img src="images/c-sharp-code.png" alt=""
+              /></a>
+            </div>
+            <div class="project-link">
+              <a href="#">Project URL</a>
+            </div>
+          </div>
+          <div class="project-3">
+            <div class="project-header">Personal Website Portfolio</div>
+            <div class="project-description">
+              <p>Personal Portfolio Website developed using HTML and CSS.</p>
+            </div>
+            <div class="project-image">
+              <a
+                href="https://www.flaticon.com/free-icons/business-and-finance"
+                title="business-and-finance icons"
+                ><img src="images/web-browser.png" alt=""
+              /></a>
+            </div>
+            <div class="project-link">
+              <a href="#">Project URL</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <div id="portfolio-link"></div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <section class="portfolio">
-      <div class="portfolio-content">
-        <h3>My Projects</h3>
-      </div>
-    </section>
+    <div class="clr"></div>
     <div id="contact-link"></div>
-    <br />
-    <br />
-    <br />
-    <br />
     <section class="contact">
-      <div class="section-content">
+      <div class="contact-content">
         <h3>Contact Me</h3>
+        <br />
+        <div class="contact-header">Get in touch with me!</div>
+        <p class="contact-message">
+          Feel free to send me an email to connect or discuss a project.
+        </p>
+        <div class="contact-info">
+          <div class="row">
+            <div class="icon"><i class="bx bx-user"></i></div>
+            <div class="info">
+              <div class="head">Name</div>
+              <div class="sub-title">Justin Pope</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon"><i class="bx bx-home"></i></div>
+            <div class="info">
+              <div class="head">Adress</div>
+              <div class="sub-title">New York City</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="icon"><i class="bx bx-envelope"></i></div>
+            <div class="info">
+              <div class="head">Email</div>
+              <div class="sub-title">justinmps12@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <form class="my-form" action="">
+          <div class="form-group">
+            <label for="">Name: </label>
+            <input type="text" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="">Email: </label>
+            <input type="text" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="">Message: </label>
+            <textarea name="message" id="" rows="10"></textarea>
+          </div>
+          <input type="submit" value="Submit" class="button" name="" />
+        </form>
       </div>
     </section>
   </body>
