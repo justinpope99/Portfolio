@@ -376,9 +376,29 @@ body {
 
 .about-content {
     /* margin-top: 10px; */
-    height: 50vh;
+    /* height: 50vh; */
+    height: 400px;
     background: #081b29;
     color:#ededed;
+}
+
+.about-title {
+    padding-bottom: 10px;
+}
+
+.about-description {
+    
+}
+
+.about-education {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.education-card {
+    height: 200px;
+    border-radius: 12px;
+    background: #ededed;
 }
 
 #skills-link, #projects-link, #contact-link {
