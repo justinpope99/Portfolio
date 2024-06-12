@@ -599,11 +599,15 @@ body {
     justify-content: space-evenly;
 }
 
+.projects {
+    /* border: red solid; */
+}
+
 .projects-content {
     display: inline-block;
     background: #ededed;
     color:#081b29;
-    height: 550px;
+    height: 570px;
     padding-top: 0;
     /* border: red; */
     padding: 35px;
