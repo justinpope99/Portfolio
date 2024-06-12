@@ -387,7 +387,7 @@ body {
 }
 
 .about-description {
-    
+
 }
 
 .about-education {
@@ -396,9 +396,48 @@ body {
 }
 
 .education-card {
+    display: inline-block;
     height: 200px;
     border-radius: 12px;
     background: #ededed;
+    color: #081b29;
+}
+
+.education-row {
+    display: inline-block;
+    justify-content: center;
+    padding: 15px;
+    width: 92vw;
+    /* border: red solid; */
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.education-icon {
+    display: inline-block;
+    text-align: center;
+    /* padding-right: 10px; */
+    font-size: 25px;
+    /* border: yellow solid; */
+    box-sizing: border-box;
+}
+
+.education-description {
+    display: inline;
+    /* border: green solid; */
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.degree, .date {
+    display: inline;
+    box-sizing: border-box;
+    font-size: 20px;
+    /* border: green solid; */
+    margin-left: 10px;
 }
 
 #skills-link, #projects-link, #contact-link {
