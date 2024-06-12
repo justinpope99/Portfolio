@@ -489,8 +489,8 @@ body {
     color: #00abf0;
 }
 
-#skills-link, #projects-link, #contact-link {
-    height: 12vh;
+#skills-link, #projects-link, #contact-link, #about-link {
+    height: 4vh;
     background: #ededed;
 }
 
