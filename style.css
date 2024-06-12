@@ -248,6 +248,7 @@ body {
     width: 100px;
     display: flex;
     justify-content: space-between;
+    background: #ededed;
 }
 
 .home-sci::before {
@@ -336,8 +337,8 @@ body {
 }
 
 .home-content img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
@@ -346,7 +347,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 100%;
     height: 100%;
     background: #ededed;
     animation: showRight 1s ease forwards;
@@ -355,18 +356,35 @@ body {
 }
 
 .home-content {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    height: 320px;
+    width: 80vh;
+    background: #ededed;
+    /* width: 800px; */
+    /* display: flex;
+    flex-direction: row; */
+    /* border: yellow solid; */
     justify-content: space-around;
 }
 
 .home-content-text {
-    width:70%;
+    display: inline-block;
+    width:60%;
+    /* border: red solid; */
 }
 
 .home-content-img {
-    width:30%;
+    display: inline-block;
+    width:40%;
+    /* border: green solid; */
 }
+
+/* .home-background {
+    display: inline;
+    width: 800px;
+    height: 700px;
+    border: red solid;
+} */
 
 .contact-content, .contact, .about-content, .skills-content, .contact {
     padding:35px;
@@ -377,7 +395,7 @@ body {
 .about-content {
     /* margin-top: 10px; */
     /* height: 50vh; */
-    height: 520px;
+    height: 500px;
     background: #081b29;
     color:#ededed;
 }
@@ -441,25 +459,34 @@ body {
 }
 
 .resume-info {
-    padding-top: 10px;
+    display: flex;
+    padding: 10px;
     margin-top: 20px;
-    padding-bottom: 25px;
-    border: red solid;
+    /* border: red solid; */
 }
 
 .resume-icon {
-    font-size: 25px;
-    border: yellow solid;
+    font-size: 28px;
+    /* border: yellow solid; */
+    padding-right: 10px;
 }
 
 .resume-header {
     font-size: 25px;
     padding-bottom: 20px;
-    border: green solid;
+    padding-right: 10px;
+    /* border: green solid; */
 }
 
 .resume-link {
-    border: orange solid;
+    padding-top: 4px;
+    font-size: 20px;
+    /* border: orange solid; */
+}
+
+.resume-link a {
+    text-decoration: none;
+    color: #00abf0;
 }
 
 #skills-link, #projects-link, #contact-link {
