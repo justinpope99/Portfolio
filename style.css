@@ -440,6 +440,28 @@ body {
     margin-left: 10px;
 }
 
+.resume-info {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border: red solid;
+}
+
+.resume-icon {
+    font-size: 25px;
+    border: yellow solid;
+}
+
+.resume-header {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border: green solid;
+}
+
+.resume-link {
+    border: orange solid;
+}
+
 #skills-link, #projects-link, #contact-link {
     height: 12vh;
     background: #ededed;
