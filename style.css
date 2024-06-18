@@ -607,7 +607,7 @@ body {
     display: inline-block;
     background: #ededed;
     color:#081b29;
-    height: 570px;
+    height: 620px;
     padding-top: 0;
     /* border: red; */
     padding: 35px;
@@ -617,7 +617,7 @@ body {
     display: inline-flex;
     align-items: center;
     /* border: yellow solid; */
-    height: 450px;
+    height: 500px;
     box-sizing: border-box;
 }
 
